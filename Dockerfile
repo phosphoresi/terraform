@@ -1,3 +1,3 @@
 FROM hashicorp/terraform
-apk add --no-cache py-pip
-pip install --no-cache-dir envtpl
+RUN apk add --no-cache py-pip
+RUN pip install --no-cache-dir envtpl
